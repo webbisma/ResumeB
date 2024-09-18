@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100. .900&display=swap');
+
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+   box-sizing: border-box;
+}
+
+
+img{
+height: 300px;
+width: 200px;
+border-radius: 80%;
+}
+:root{
+    --primary-color:#ff7613;
+    --text-color:#727171;
+
+}  
+
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family:Inter,sans-serif;
+    background-color: black;
+    color: hwb(180 95% 2%);
+}
+/* common style part */
+a{
+    text-decoration: none;
+    color: rgb(56, 54, 208);
+}
+
+/* layouts */
+.container{
+    max-width: 1000px;
+    width:90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    grid-template-columns: 1fr 1fr ;
+    gap: 4rem;
+
+}
+
+@media only screen and(max-width:768px){
+    .container{
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 7rem;
+    }
+}
+
+/* profile */
+
+.profile{
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+ }
+
+ .profile_container{
+    display: flex;
+    gap: 2rem;
+ }
+ .profile_profileimage{
+    max-width: 250px;
+ }
+
+ .profile_name_firstName{
+    color:white;
+    font-weight: 800;
+    font-size: 50px;
+    font-family:  sans-serif;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: -0.8rem;
+    color: var(--primary-color);
+    display: block;
+    
+   
+ }
+
+ .profile_name_lastName{
+    padding-bottom:10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.profile_title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 2rem;
+   
+}
+
+.downloadbtn{
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    
+}
+.discription{
+    padding-top: 1rem;
+    color: #727171;
+    font-size: 15px;
+
+}
+
+.downloadbtn:hover{
+    color:var(--primary-color) ;
+}
+
+@media only screen and (max-width:768) {
+    .profile_container{
+        flex-direction: column;
+    }
+}
+.title{
+    font-size: 700px;
+    color: var(--primary-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.skill_list{
+    margin: 1rem;
+    margin-left: 2rem;
+    color: #727171;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.ref_item{
+    margin-top: 2rem;
+    color: #727171;
+}
+.ref_name{
+    margin-bottom: 2rem;
+    color:white;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.profile_title{
+    color: #727171;
+}
+
+.title{
+    primary-color:#ff7613;
+}
+
+.group-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+ /* edution */
+ .edu_item{
+    margin-top: 2rem;
+    line-height: 2;
+ }
+.title
+{
+    margin-top: 2rem;
+    primary-color:#ff7613; 
+}
+
+.item_preTitle,p{
+    color: #727171;
+    font-size: 13px;
+    
+}
+
+.item_title{
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.description{
+    line-height: 1.5;
+    font-family:Inter,sans-serif;
+    font-size:small ;
+}
+
+.item_subtitle{
+    color: white;
+    margin-top: 2rem;
+}
+
+.item_subtitle{
+    color:#ff7613;
+    margin-top: 2rem;
+}
+
+.item_title{
+    margin-top: 0.5rem;
+}
+
+
+
+
+.exp_item{
+    margin-top: 3rem;
+}
+
+/* interest */
+.interest_item{
+    margin-top: 2rem ;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: #727171;
+}
+
+.languages{
+    margin-top: 12rem;
+}
+.lan{
+    font-size: 20px;
+    font-weight: 80px;
+    margin-bottom: 3rem;
+    color: #ff7613;
+   
+    
+}
+.last_section{
+    color: #727171;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
